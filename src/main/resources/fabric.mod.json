@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "alienmod",
+  "version": "${version}",
+  "name": "Alien Mod",
+  "description": "Adds a grey alien mob with a fully custom 3D model.",
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.alienmod.AlienMod"],
+    "client": ["com.alienmod.client.AlienModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
